@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from Xiaomi sdm710-common
+# Inherit from Realme sdm710-common
 include device/realme/sdm710-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/RMX1901
@@ -16,7 +16,7 @@ TARGET_OTA_ASSERT_DEVICE := RMX1901,RMX1901CN
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := RMX1901_defconfig
+TARGET_KERNEL_CONFIG := rmx1901_chen_defconfig
 
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 

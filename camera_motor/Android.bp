@@ -16,8 +16,8 @@
 cc_binary {
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    name: "vendor.lineage.camera.motor@1.0-service.realme_sdm710",
-    init_rc: ["vendor.lineage.camera.motor@1.0-service.realme_sdm710.rc"],
+    name: "vendor.mokee.camera.motor@1.0-service.realme_sdm710",
+    init_rc: ["vendor.mokee.camera.motor@1.0-service.realme_sdm710.rc"],
     srcs: ["service.cpp", "CameraMotor.cpp"],
     vendor: true,
     shared_libs: [
@@ -28,6 +28,6 @@ cc_binary {
         "liblog",
         "libhwbinder",
         "libutils",
-        "vendor.lineage.camera.motor@1.0",
+        "vendor.mokee.camera.motor@1.0",
     ],
 }

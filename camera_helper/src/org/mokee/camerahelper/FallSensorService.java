@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.camerahelper;
+package org.mokee.camerahelper;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;

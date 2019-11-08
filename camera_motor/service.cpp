@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "vendor.lineage.camera.motor@1.0-service.realme_sdm710"
+#define LOG_TAG "vendor.mokee.camera.motor@1.0-service.realme_sdm710"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
@@ -24,8 +24,8 @@
 using android::hardware::configureRpcThreadpool;
 using android::hardware::joinRpcThreadpool;
 
-using vendor::lineage::camera::motor::V1_0::ICameraMotor;
-using vendor::lineage::camera::motor::V1_0::implementation::CameraMotor;
+using vendor::mokee::camera::motor::V1_0::ICameraMotor;
+using vendor::mokee::camera::motor::V1_0::implementation::CameraMotor;
 
 using android::OK;
 using android::status_t;

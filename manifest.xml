@@ -916,7 +916,7 @@
         <fqname>@1.0::IRTPService/imsrtpservice</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.lineage.camera.motor</name>
+        <name>vendor.mokee.camera.motor</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
@@ -926,7 +926,7 @@
         <fqname>@1.0::ICameraMotor/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.lineage.biometrics.fingerprint.inscreen</name>
+        <name>vendor.mokee.biometrics.fingerprint.inscreen</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>

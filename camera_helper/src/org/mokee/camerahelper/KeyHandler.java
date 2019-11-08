@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.camerahelper;
+package org.mokee.camerahelper;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -74,7 +74,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
     private Context getPackageContext() {
         try {
-            return mContext.createPackageContext("org.lineageos.camerahelper", 0);
+            return mContext.createPackageContext("org.mokee.camerahelper", 0);
         } catch (NameNotFoundException | SecurityException e) {
             Log.e(TAG, "Failed to create package context", e);
         }

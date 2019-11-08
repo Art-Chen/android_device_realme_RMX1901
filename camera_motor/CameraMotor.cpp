@@ -35,7 +35,7 @@
 #define CAMERA_ID_FRONT "1"
 
 namespace vendor {
-namespace lineage {
+namespace mokee {
 namespace camera {
 namespace motor {
 namespace V1_0 {

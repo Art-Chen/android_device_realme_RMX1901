@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-#ifndef VENDOR_LINEAGE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
-#define VENDOR_LINEAGE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
+#ifndef VENDOR_MOKEE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
+#define VENDOR_MOKEE_CAMERA_MOTOR_V1_0_FINGERPRINTINSCREEN_H
 
-#include <vendor/lineage/camera/motor/1.0/ICameraMotor.h>
+#include <vendor/mokee/camera/motor/1.0/ICameraMotor.h>
 
 namespace vendor {
-namespace lineage {
+namespace mokee {
 namespace camera {
 namespace motor {
 namespace V1_0 {
