@@ -57,6 +57,7 @@ namespace implementation {
 
 FingerprintInscreen::FingerprintInscreen() {
     this->mVendorFpService = IBiometricsFingerprint::getService();
+}
 
 Return<int32_t> FingerprintInscreen::getPositionX() {
     return 560;
