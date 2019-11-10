@@ -59,11 +59,11 @@ FingerprintInscreen::FingerprintInscreen() {
     this->mVendorFpService = IBiometricsFingerprint::getService();
 
 Return<int32_t> FingerprintInscreen::getPositionX() {
-    return 442;
+    return 560;
 }
 
 Return<int32_t> FingerprintInscreen::getPositionY() {
-    return 1986;
+    return 2030;
 }
 
 Return<int32_t> FingerprintInscreen::getSize() {
