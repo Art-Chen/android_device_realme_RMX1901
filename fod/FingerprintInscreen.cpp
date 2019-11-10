@@ -60,11 +60,11 @@ FingerprintInscreen::FingerprintInscreen() {
 }
 
 Return<int32_t> FingerprintInscreen::getPositionX() {
-    return 560;
+    return 442;
 }
 
 Return<int32_t> FingerprintInscreen::getPositionY() {
-    return 2030;
+    return 1986;
 }
 
 Return<int32_t> FingerprintInscreen::getSize() {
