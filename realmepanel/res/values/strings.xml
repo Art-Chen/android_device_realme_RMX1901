@@ -19,6 +19,6 @@
     <string name="flicker_free_settings_title">Flicker-free</string>
     <string name="flicker_free_settings_summary">Avoid screen flicker on low brightness</string>
     <string name="flicker_free_toggle_title">Avoid screen flicker on low brightness</string>
-    <string name="flicker_free_toggle_summary">May reduce image quality and affect the inscreen fingerprint to unlock</string>
+    <string name="flicker_free_toggle_summary">May reduce image quality</string>
 
 </resources>

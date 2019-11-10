@@ -43,7 +43,7 @@
     <string name="flicker_free_settings_title">消除闪烁</string>
     <string name="flicker_free_settings_summary">避免低亮度下的屏幕闪烁</string>
     <string name="flicker_free_toggle_title">避免低亮度下的屏幕闪烁</string>
-    <string name="flicker_free_toggle_summary">可能会降低图像质量影响屏下指纹解锁</string>
+    <string name="flicker_free_toggle_summary">可能会降低图像质量</string>
 
 
 </resources>
