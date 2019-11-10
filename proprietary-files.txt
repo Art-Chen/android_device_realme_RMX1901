@@ -164,6 +164,8 @@ vendor/lib64/libsl_fp_nosec.so
 vendor/lib64/libsl_fp_prepro.so
 vendor/lib/libegis_hal.so
 vendor/lib64/libegis_hal.so
+vendor/lib/libRbsFlow.so
+vendor/lib64/libRbsFlow.so
 
 # Goodix FP Firmware
 vendor/firmware/goodixfp.mdt
