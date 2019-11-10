@@ -56,7 +56,7 @@ namespace V1_0 {
 namespace implementation {
 
 FingerprintInscreen::FingerprintInscreen() {
-}
+    this->mVendorFpService = IBiometricsFingerprint::getService();
 
 Return<int32_t> FingerprintInscreen::getPositionX() {
     return 442;
@@ -91,11 +91,13 @@ Return<void> FingerprintInscreen::onRelease() {
 }
 
 Return<void> FingerprintInscreen::onShowFODView() {
+    this->mVendorFpService->setScreenState(vendor::oppo::hardware::biometrics::fingerprint::V2_1::FingerprintScreenState::FINGERPRINT_SCREEN_ON);
     return Void();
 }
 
 Return<void> FingerprintInscreen::onHideFODView() {
-    set(HBM_PATH, 0);
+    this->mVendorFpService->setScreenState(vendor::oppo::hardware::biometrics::fingerprint::V2_1::FingerprintScreenState::FINGERPRINT_SCREEN_OFF);
+	set(HBM_PATH, 0);
     set(FP_PRESS_PATH, 0);
     return Void();
 }
