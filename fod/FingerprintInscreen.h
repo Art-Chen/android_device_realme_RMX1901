@@ -18,8 +18,6 @@
 #define VENDOR_MOKEE_BIOMETRICS_FINGERPRINT_INSCREEN_V1_0_FINGERPRINTINSCREEN_H
 
 #include <vendor/mokee/biometrics/fingerprint/inscreen/1.0/IFingerprintInscreen.h>
-#include <vendor/oppo/hardware/biometrics/fingerprint/2.1/IBiometricsFingerprint.h>
-#include <vendor/oppo/hardware/biometrics/fingerprint/2.1/types.h>
 
 namespace vendor {
 namespace mokee {
@@ -32,7 +30,6 @@ namespace implementation {
 using ::android::sp;
 using ::android::hardware::Return;
 using ::android::hardware::Void;
-using ::vendor::oppo::hardware::biometrics::fingerprint::V2_1::IBiometricsFingerprint;
 
 class FingerprintInscreen : public IFingerprintInscreen {
 public:
@@ -54,8 +51,6 @@ public:
     Return<void> setCallback(const sp<::vendor::mokee::biometrics::fingerprint::inscreen::V1_0::IFingerprintInscreenCallback>& callback) override;
 
 private:
-    sp<IBiometricsFingerprint> mVendorFpService;
-
     std::mutex mCallbackLock;
     sp<IFingerprintInscreenCallback> mCallback;
 };

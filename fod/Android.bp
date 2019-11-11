@@ -32,6 +32,5 @@ cc_binary {
         "libhwbinder",
         "libutils",
         "vendor.mokee.biometrics.fingerprint.inscreen@1.0",
-        "vendor.oppo.hardware.biometrics.fingerprint@2.1",
     ],
 }
