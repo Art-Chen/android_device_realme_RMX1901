@@ -23,7 +23,7 @@
 #include <cmath>
 
 #define FP_PRESS_PATH "/sys/kernel/oppo_display/notify_fppress"
-
+#define DIMLAYER_PATH "/sys/kernel/oppo_display/dimlayer_hbm"
 #define HBM_PATH "/sys/kernel/oppo_display/hbm"
 #define DIM_AMOUNT_PATH "/sys/kernel/oppo_display/dim_alpha"
 
@@ -91,12 +91,14 @@ Return<void> FingerprintInscreen::onRelease() {
 }
 
 Return<void> FingerprintInscreen::onShowFODView() {
+    set(DIMLAYER_PATH, 1);
     return Void();
 }
 
 Return<void> FingerprintInscreen::onHideFODView() {
     set(HBM_PATH, 0);
     set(FP_PRESS_PATH, 0);
+    set(DIMLAYER_PATH, 0);
     return Void();
 }
 
